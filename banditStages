@@ -1,0 +1,145 @@
+==========================================================
+$      Date of starting the bandit is 2020-04-19         $
+$			By M57rom  			 $
+=========================/BANDIT\=========================
+ 	-----
+	Level of bandit
+EX:	Notes
+	Password
+	-----
+		[+++SSH-CONNECTION+++]
+$> Beginning...
+
+ssh bandit[level_nb]@bandit.labs.overthewire.org -p 2220
+
+bandit0@bandit.labs.overthewire.org
+bandit0
+-----------------------------------------------------------
+bandit1
++dash
+boJ9jbbUNNfktd78OOpsqOltutMc3MY1
+-----------------------------------------------------------
+bandit2
++space
+CV1DtqXWVFXTvM2F0k09SHz0YwRINYA9
+-----------------------------------------------------------
+bandit3
++hidden
+UmHadQclWmgdLOKQ3YNgjWxGoRMb5luK
+-----------------------------------------------------------
+bandit4
++how to find human readable file =find ./-f*=
+pIwrPrtPN36QITSp3EQaw936yaFoFgAB
+-----------------------------------------------------------
+bandit5
++
+koReBOKuIDDepwhWk7jZC0RTdopnAYKh
+-----------------------------------------------------------
+bandit6
++find . -type f -size 1033c -readable ! -executable
+DXjZPULLxYr17uwoI01bNLQbtFemEgo7
+-----------------------------------------------------------
+bandit7
++find / -user bandit7 -group bandit6 -size 33c
+HKBPTKQnIay4Fw76bEy8PVxKEDQRKTzs
+-----------------------------------------------------------
+bandit8
++I'm using $(grep) to filter "millionth"
+cvX2JJa4CFALtqS87jk27qwqGhBM9plV
+-----------------------------------------------------------
+bandit9
++sort data.txt | uniq -c "the -c is onceT apeares"
+UsvVyFSfZZWbi6wgC7dAFyFuR6jQQUhR
+-----------------------------------------------------------
+bandit10
++Filtred $strings data.txt -n 20 | cut -d " " -f 2
+truKLdjsbJ5g7yyJ2X2R0o3a5HQJFuLk
+-----------------------------------------------------------
+bandit11
++Useing the base command and -d option to decode the hash
+IFukwKGsFW8MOq3IRFqrxE1hxTNEbUPR
+-----------------------------------------------------------
+bandit12
+**Décompres files with R.E ["xxd -r,file,ZipTarBzip2,mv"]
+5Te8Y4drgCRfCx8ugdwuEX8KFC6k2EUu
+-----------------------------------------------------------
+bandit13
+**Login by "-i"&local host and findPASS in /etc/../bandit14
+8ZjyCRiBWFYkneahHwxCv3wb2a1ORpYL
+-----------------------------------------------------------
+bandit14
+**#telnet 127.0.0.1 30000 Port_ndmps.with PassOfCurrentLev
+4wcYUJFw0k0XLShlDzztnTBHiqxU3b3e
+-----------------------------------------------------------
+bandit15
+***openssl s_client -state -connect 127.0.0.1:30001 -tls1
+****USING_THAT_FOR_ENCRYP_CNX_&PASSofBANDIT_15.............
+BfMYroe26WYalil77FoDi9qh59eK5xNr
+-----------------------------------------------------------
+bandit16
+*Retrive Private key in the localhost by scanning ports and 
+** using the (openssl s_client) in the right port..........
+cluFn7wTiGryunymYOu4RcffSxQluehd
+-----------------------------------------------------------
+bandit17
+**(Loging With the private key by "ssh -i pkey.txt b17@host
+***-p 2220 with 600 in pkfile /!\ permissions /!\ .........
+-----BEGIN RSA PRIVATE KEY-----
+MIIEogIBAAKCAQEAv..kuifmMg6HL2YPIOjon6iWfbp7c3jx34YkYWqUH57SUdyJ
+imZzeyGC0gtZPGujUSxiJSWI/oTqexh+cAMTSMlOJf7+BrJObArnxd9Y7YT2bRPQ
+Ja6Lzb558YW3FZl87ORiO+rW4LC..Nd2lUvLE/GL2GWyuKN0K5iCd5TbtJzEkQTu
+DSt2mcNn4rhAL+JFr56o4T6z8WWAW18BR6yGrMq7Q/kALHYW3OekePQAzL0VUYbW
+JGTi65CxbCnzc/w4+mqQyvmzpWtMAzJTzA..xNbkR2MBGySxDLrjg0LWN6sK7wNX
+x0YVztz/zbIkPjfkU1jHS+9EbVNj+D1XFOJuaQIDAQABAoIBABagpxpM1aoLWfvD
+KHcj10nqcoBc4oE11aFYQwik7xfW+24pRNuDE6SFthOar69jp5RlLwD1NhPx3iBl
+J9nOM8OJ0VToum43UOS8Y..8WwhXriYGnc1sskbwpXOUDc9uX4+UESzH22P29ovd
+d8WErY0gPxun8pbJLmxkAtWNhpMvfe0050vk9TL5wqbu9AlbssgTcCXkMQnPw9nC
+YNN6DDP2lbcBrvgT9YCNL6C..LufD52yOQ9qOkwFTEQpjtF4uNtJom+asvlpmS8A
+vLY9r60wYSvmZhNqBUrj7lyCtXMIu1kkd4w7F77k+DjHoAXyxcUp1DGL51sOmama
++TOWWgECgYEA8JtPxP0GRJ+IQkX..2jM3dEIkza8ky5moIwUqYdsx0NxHgRRhORT
+8c8hAuRBb2G82so8vUHk/fur85OEfc9TncnCY2crpoqsghifKLxrLgtT+qDpfZnx
+SatLdt8GfQ85yA7hnWWJ2MxF3NaeSDm75Lsm+tBbAiyc9P2jGRNtMSkCgYEAypHd
+HCctNi/FwjulhttFx/rHYKh..dZDFYeiE/v45bN4yFm8x7R/b0iE7KaszX+Exdvt
+SghaTdcG0Knyw1bpJVyusavPzpaJMjdJ6tcFhVAbAjm7enCIvGCSx+X3l5SiWg0A
+R57hJglezIiVjv3aGwHwvlZvtszK6zV6oXFAu0ECgYAbjo46T4hyP5tJi93V5HDi
+Ttiek7xRVxUl+iU7rWk..XFpMLFteQEsRr7PJ/lemmEY5eTDAFMLy9FL2m9oQWCg
+R8VdwSk8r9FGLS+9aKcV5PI/WEKlwgXinB3OhYimtiG2Cg5JCqIZFHxD6MjEGOiu
+L8ktHMPvodBwNs..ULpG0QKBgBAplTfC1HOnWiMGOU3KPwYWt0O6CdTkmJOmL8Ni
+blh9elyZ9FsGxsgtRBXRsqXuz7wtsQAgLHxbdLq/ZJQ7YfzOKU4ZxEnabvXnvWkU
+YOdjHdSOoKvDQNWu6uc..RAWFuISeXw9a/9p7ftpxm0TSgyvmfLF2MIAEwyzRqaM
+77pBAoGAMmjmIJdjp+Ez8duyn3ieo36yrttF5NSsJLAbxFpdlc1gvtGCWW+9Cq0b
+dxviW8+TFVEBl1O4f7HVm6EpTscdDxU+bCXWkfjuRb7Dy9GOtt9JPsX8MBTakzh3
+vBgsyi/sN3RqRBcGU40fOo..fAMT8s1m/uYv52O6IgeuZ/ujbjY=
+-----END RSA PRIVATE KEY-----
+-----------------------------------------------------------
+bandit18
+***Someone modify the shell to unlogin ssh sessions ;) -T
+****-T to disable the pseudo-Terminal Allocation is solut°'
+kfBf3eYk5BPBRzwjqutbbfE887SVc5Yd
+-----------------------------------------------------------
+badit19
+*
+IueksS7Ubh8G3DCwVzrTd8rAVOwq3M5x
+-----------------------------------------------------------
+bandit20
+*Set uid* privileges gets dropped when executing..........
+GbKksEFF4yrVs6il55v6gwY5aVje5f0j
+-----------------------------------------------------------
+bandit21
+ *Using nc in listning and gives the echo pass to the current
+ *level with executing the banairy file with same port ;)
+gE269g2h3mw3pwgrj0Ha9Uoqen1c9DGr
+------------------------------------------------------------
+bandit22
+ *Learn CRON-JOB and get pass in executed command that stored
+ password in /tmp directory
+Yk7owGAcWjwMVRwrTesJEwB7WVOiILLI
+------------------------------------------------------------
+bandit23
+ *Read the script and change the command to bandit23 ;)
+jc1udXuA1tiHqjIsL8yaapX5XIAI6i0n
+------------------------------------------------------------
+bandit24
+*
+
+------------------------------------------------------------
