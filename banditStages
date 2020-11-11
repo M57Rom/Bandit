@@ -140,6 +140,17 @@ bandit23
 jc1udXuA1tiHqjIsL8yaapX5XIAI6i0n
 ------------------------------------------------------------
 bandit24
+*Creating script that coping pss24 to tmp in /var/spool/ban-
+*dit24 once creating it it executed by permission of bandit24
+*& removed.
+UoMYTrfrBFHyQXmg6gzctqAwOmw1IohZ
+------------------------------------------------------------
+bandit25
+*creating script in /tmp with for loop to brutforcing pass
+*for i in {0000..9999}do ...|nc localhost 30002 > bpass.txt
+uNG9O58gUE7snukf3bvZ0rxhtnjzSGzG
+------------------------------------------------------------
+bandit26
 *
 
 ------------------------------------------------------------
